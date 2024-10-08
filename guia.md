@@ -10,3 +10,9 @@ fondo footer #3E3E3E
 Encabezados: Montserrat Bold (para títulos grandes)
 Cuerpo del texto Open Sans Regular (para el texto del párrafo)
 Citas: Merriweather Italic (para citas o secciones especiales)
+
+REPOSITORIO DEL EXAMEN
+https://github.com/Marcelochoquecruz/Examen-INF-631-FronEnd
+
+Uni. Marcelo Choque Cruz
+INF 631 FrontEnd
