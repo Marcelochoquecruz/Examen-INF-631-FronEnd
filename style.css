@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  justify-content: space-between; /* header arriba, menu abajo */
+  justify-content: space-between;
 }
 .header {
   background-color: rgba(238, 235, 235, 0.9);
@@ -55,15 +55,25 @@ body {
   font-family: "Roboto", sans-serif;
 }
 /* Eslogan */
+/* Estilo para el eslogan flotante */
 .slogan-float {
+  /* Posicionamiento absoluto para colocar el eslogan en relación con su contenedor */
   position: absolute;
+  /* Coloca el eslogan en el centro vertical del contenedor */
   top: 50%;
+  /* Alinea el eslogan al borde derecho del contenedor */
   right: 0;
+  /* Ajusta la posición vertical para centrar perfectamente */
   transform: translateY(-50%);
+  /* Alinea el texto a la derecha dentro del eslogan */
   text-align: right;
+  /* Color del texto del eslogan */
   color: white;
+  /* Fondo semi-transparente para mejorar la legibilidad */
   background-color: rgba(0, 0, 0, 0.6);
+  /* Espacio interno alrededor del contenido del eslogan */
   padding: 20px;
+  /* Bordes redondeados en las esquinas izquierdas para un aspecto suave */
   border-radius: 10px 0 0 10px;
 }
 .slogan-float h2,
@@ -105,8 +115,8 @@ h3 {
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-height: 100px; /* Limita la altura del menú */
-  overflow: hidden; /* Evita que los elementos se desborden */
+  max-height: 100px;
+  overflow: hidden;
 }
 .box-menu ul {
   display: flex;
@@ -126,11 +136,11 @@ h3 {
   justify-content: center;
   text-decoration: none;
   background-color: rgba(144, 238, 144, 0.7);
-  padding: 5px 10px; /* Reduce el padding */
+  padding: 5px 10px;
   text-align: center;
   transition: all 0.3s ease;
   height: 100%;
-  min-height: 60px; /* Ajusta la altura mínima */
+  min-height: 60px;
 }
 .box-menu ul li a:hover {
   background-color: rgba(85, 160, 88, 0.8);
@@ -197,12 +207,10 @@ nav ul li a:hover {
     sans-serif;
   padding: 0px 20px;
 }
-.titulo h2 {
-  text-decoration: none;
+.titulo h2{
+  color: rgba(0, 0, 0, 0.6); 
   text-align: center;
-  color: rgba(0, 0, 0, 0.6);
-  padding: 10px;
-  line-height: 1.5;
+  margin-top: 50px;
 }
 .contenido {
   display: flex;
@@ -214,6 +222,7 @@ nav ul li a:hover {
   flex-direction: column;
   align-items: center;
   width: 50%;
+  text-align: justify;
 }
 .objetivo img {
   width: 120px;
@@ -250,6 +259,7 @@ nav ul li a:hover {
   padding-left: 20px;
   padding-right: 20px;
   line-height: 2;
+  text-align: center;
 }
 /* ESTILOS PARTE CENTRAL*/
 /* Estilos para la sección principal con fondo azul oscuro */
@@ -279,15 +289,7 @@ nav ul li a:hover {
     gap: 20px;
 }
 
-.recurso {
-    background-color: #2e3b55; /* Fondo más claro para las tarjetas */
-    border-radius: 8px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    padding: 20px;
-    width: 30%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-align: center;
-}
+
 
 .recurso:hover {
     transform: scale(1.05);
@@ -362,37 +364,6 @@ i {
     background-color: #ffcc00;
     margin: 20px auto;
 }
-/* Estilos para la sección de fotos */
-.seccion-fotos {
-    background-color: #444c55; /* Fondo gris suave */
-    padding: 60px;
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-    color: #2c3e50; /* Color del texto principal: gris oscuro */
-}
-
-.seccion-fotos h1 {
-    font-size: 2.8em;
-    color: #2c3e50; /* Color oscuro para el título */
-    margin-bottom: 20px;
-}
-
-.seccion-fotos p {
-    font-size: 1.2em;
-    color: #4b6587; /* Texto en azul oscuro suave */
-    margin-bottom: 40px;
-}
-
-/* Grid de fotos */
-.grid-fotos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
-    gap: 20px;
-    justify-items: center;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
 /* Estilos para la sección de fotos */
 .seccion-fotos {
     background: linear-gradient(to bottom, #e6f2ff, #44484d); /* Fondo degradado lineal claro y oscuro */
