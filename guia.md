@@ -8,5 +8,5 @@ color iconos #7E6A38
 fondo footer #3E3E3E
 # Tipos de letras 
 Encabezados: Montserrat Bold (para títulos grandes)
-Cuerpo del texto: Open Sans Regular (para el texto del párrafo)
+Cuerpo del texto Open Sans Regular (para el texto del párrafo)
 Citas: Merriweather Italic (para citas o secciones especiales)
